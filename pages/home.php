@@ -46,7 +46,7 @@ if (!isset($_SESSION["username"])) {
     <div id="hello-user">
       <?php
       echo '<span>' . (isset($_SESSION['username']) ? 'Hello, ' . $_SESSION['username'] : '') . '</span>';
-      echo '<span class="logout"><a href="../be/logout.php" class="anchor">Logout</a></span>';
+      echo '<span class="logout"><a href="../BE/logout.php" class="anchor">Logout</a></span>';
 
       ?>
     </div>

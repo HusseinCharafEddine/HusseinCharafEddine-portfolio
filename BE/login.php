@@ -5,7 +5,6 @@ $pass = $_POST["password"];
 $usersJson = file_get_contents('../data/users.json');
 $usersArray = json_decode($usersJson, true);
 
-
 $loggedIn = false;
 
 foreach ($usersArray as $user) {

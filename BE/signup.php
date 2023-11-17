@@ -1,5 +1,4 @@
 <?php
-
 function VarExist($var)
 {
     if (isset($var)) {
@@ -13,9 +12,8 @@ $user = new stdClass();
 $user->fullname = VarExist($_POST["fullname"]);
 $user->username = VarExist($_POST["username"]);
 $user->pass = VarExist($_POST["pass"]);
-$user->sex = VarExist($_POST["gender"]);
+$user->sex = VarExist($_POST["sex"]);
 $user->birthdate = VarExist($_POST["birthdate"]);
-
 
 if (InsertUserToFilefromObject($user)) {
     header("location:../index.php");
@@ -37,7 +35,6 @@ function InsertUserToFilefromObject($user)
         "birthdate" => $user->birthdate,
 
     );
-
 
     $newuser = json_encode($userarray, JSON_PRETTY_PRINT);
 

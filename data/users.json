@@ -1,0 +1,23 @@
+[
+    {
+        "fullname": "Hussein Sharafeddine",
+        "username": "husseinsh",
+        "password": "test1234",
+        "sex": null,
+        "birthdate": "2004-01-20"
+    },
+    {
+        "fullname": "Hussein Sharafeddine",
+        "username": "husseinsh3",
+        "password": "test1234",
+        "sex": null,
+        "birthdate": "2015-01-20"
+    },
+    {
+        "fullname": "Hussein Sharafeddine",
+        "username": "husseinsharaf",
+        "password": "test1234",
+        "sex": null,
+        "birthdate": "2020-02-02"
+    }
+]

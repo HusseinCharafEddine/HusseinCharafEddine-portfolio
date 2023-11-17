@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.center-wrapper {
+  text-align: center;
+}
+.h1 {
+  padding: 10%;
+}
+
+/* Rest of your existing styles */
+
+.login-container {
+  width: 100%; /* Adjust the width as needed */
+  padding: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.anchor {
+  text-decoration: none;
+  color: black;
+}
+
+/* Corrected class name from .a :hover to .a:hover */
+.anchor:hover {
+  text-decoration: underline;
+  color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

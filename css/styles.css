@@ -1,0 +1,371 @@
+/* Reset some default styles body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+} */
+
+/* Basic styling */
+section {
+  padding-top: 10%;
+  margin-left: 27%;
+  border-bottom: 2px solid #000; /* You can adjust the width and color */
+  height: 100vh;
+}
+.about p {
+  font-size: 1.5rem;
+  width: 75%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  color: #333333;
+  font-weight: 500;
+}
+h1 {
+  font-weight: 700;
+  color: #000000;
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+.contactsvgs {
+  padding-top: 5%;
+  width: 5%;
+}
+
+nav {
+  margin-top: 0;
+  width: 25%;
+  background: black;
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+}
+nav img {
+  margin-top: 33%;
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: 2%;
+}
+.hussein {
+  padding: 1rem;
+  color: #f5f5f5;
+}
+.hussein h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cv li {
+  padding: 0.33rem;
+}
+nav p {
+  color: #f5f5f5;
+}
+nav p:hover {
+  color: #333333;
+}
+.Education div {
+  padding-bottom: 5%;
+}
+.about a {
+  color: black;
+  text-decoration: none;
+}
+
+.Education p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+/* nav a:hover {
+  background-color: #555;
+  color: #999;
+} */
+nav a {
+  text-decoration: none;
+}
+.info {
+  width: 80%;
+  float: left;
+}
+.info h3 {
+  font-size: 1.17em;
+}
+
+.info h5 {
+  font-size: 1rem;
+}
+
+.info p {
+  font-size: 1rem;
+}
+.date p {
+  font-size: 1rem;
+}
+.date {
+  width: 20%;
+  float: right;
+  font-weight: bold;
+}
+.Skills {
+  font-size: 1rem;
+}
+.header {
+  font-size: 4rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.email {
+  font-weight: bold;
+  padding-left: 0.5%;
+  padding-bottom: 5%;
+  font-size: 2rem;
+}
+.half {
+  width: 50%;
+  float: left;
+}
+.half2 {
+  width: 50%;
+  float: right;
+}
+.Education {
+  padding-top: 0;
+}
+.education {
+  padding-top: 5%;
+}
+.experience {
+  padding-top: 5%;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.segregate {
+  margin: 0;
+  padding: 0;
+}
+.projects {
+  padding-top: 0%;
+}
+.skill h2 {
+  width: 20%;
+}
+.skills {
+  padding-top: 2%;
+}
+.progress-bar {
+  float: left;
+  background: #959595;
+  width: 50%;
+  height: 10px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+.skillsvgs {
+  padding-right: 5%;
+  width: 5%;
+  float: left;
+}
+.container {
+  padding-right: 33%;
+  height: 11vh;
+}
+.barfix {
+  padding-top: 2%;
+}
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  background: #000;
+}
+
+/* .progress-bar div span {
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.nodejs {
+  animation: nodejs 2s linear forwards;
+}
+.nodejs span {
+  border: 1px solid;
+}
+@keyframes nodejs {
+  100% {
+    width: 60%;
+  }
+}
+.html {
+  animation: html 2s linear forwards;
+}
+.html span {
+  border: 1px solid;
+}
+@keyframes html {
+  100% {
+    width: 55%;
+  }
+}
+.projectsvg {
+  fill: none;
+  width: 25%;
+}
+
+.js {
+  animation: js 2s linear forwards;
+}
+.js span {
+  border: 1px solid;
+}
+@keyframes js {
+  100% {
+    width: 45%;
+  }
+}
+
+.css {
+  animation: css 2s linear forwards;
+}
+.css span {
+  border: 1px solid;
+}
+@keyframes css {
+  100% {
+    width: 50%;
+  }
+}
+
+.mysql {
+  animation: mysql 2s linear forwards;
+}
+.mysql span {
+  border: 1px solid;
+}
+@keyframes mysql {
+  100% {
+    width: 57%;
+  }
+}
+.java {
+  animation: java 2s linear forwards;
+}
+.java span {
+  border: 1px solid;
+}
+@keyframes java {
+  100% {
+    width: 75%;
+  }
+}
+.kotlin {
+  animation: kotlin 2s linear forwards;
+}
+.kotlin span {
+  border: 1px solid;
+}
+@keyframes kotlin {
+  100% {
+    width: 65%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+a.svglink {
+  text-decoration: white;
+}
+
+body {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.segregate p {
+  font-size: 0.8rem;
+}
+.profile {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 20%;
+  margin-top: 8%;
+  display: flex;
+  text-align: center;
+}
+.profile-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
+}
+.button {
+  background-color: black;
+  color: white;
+  width: 5%;
+  margin: 3%;
+  text-align: center;
+  border-radius: 35%;
+}
+.button-container :hover {
+  cursor: pointer;
+  background-color: grey;
+  transform: scale(1.2);
+}
+.button :hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.logout {
+  float: right;
+  color: white;
+}

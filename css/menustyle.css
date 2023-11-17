@@ -1,0 +1,90 @@
+#dropdown-menu {
+  float: left;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 90px;
+  color: white;
+  background: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  border-right: 1px solid white;
+}
+.dropdown-content {
+  cursor: pointer;
+  display: none;
+  background: white;
+  position: relative;
+  min-width: 160px;
+  z-index: 1;
+  left: 0;
+  font-weight: normal;
+  font-size: medium;
+}
+
+#dropdown-menu li {
+  color: grey;
+  text-align: center;
+  list-style-type: none;
+}
+
+#dropdown-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+#dropdown-menu li:hover {
+  background: black;
+  color: white;
+}
+#dropdown-menu a {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+#header {
+  background: black;
+  height: 40px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  border: 1px solid white;
+}
+
+#hello-user {
+  float: right;
+  width: 94vw;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+#hello-user:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+}
+
+.logout {
+  cursor: pointer;
+  margin-right: 2%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 1%;
+}

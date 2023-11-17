@@ -1,19 +1,7 @@
-/* Reset some default styles body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-} */
-
-/* Basic styling */
 section {
   padding-top: 10%;
   margin-left: 27%;
-  border-bottom: 2px solid #000; /* You can adjust the width and color */
+  border-bottom: 2px solid #000;
   height: 100vh;
 }
 .about p {
@@ -88,10 +76,7 @@ nav p:hover {
   font-size: 1.3rem;
   font-weight: 700;
 }
-/* nav a:hover {
-  background-color: #555;
-  color: #999;
-} */
+
 nav a {
   text-decoration: none;
 }
@@ -195,18 +180,6 @@ a {
   width: 0%;
   background: #000;
 }
-
-/* .progress-bar div span {
-  height: 40px;
-  width: 40px;
-  float: right;
-  margin-top: -15px;
-  margin-right: -20px;
-  color: orange;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .nodejs {
   animation: nodejs 2s linear forwards;

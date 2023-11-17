@@ -35,16 +35,16 @@ function InsertUserToFilefromObject($user)
         "password" => $user->pass,
         "sex" => $user->sex,
         "birthdate" => $user->birthdate,
-        // "language" => $user->language
+
     );
-    //print_r($userarray);
+
 
     $newuser = json_encode($userarray, JSON_PRETTY_PRINT);
 
     if (file_put_contents('../data/users.json', $newuser)) {
-        return true; //signup successful
+        return true;
     } else {
-        return false; //signup failed
+        return false;
     }
 }
 
